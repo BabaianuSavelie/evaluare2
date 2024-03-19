@@ -1,3 +1,5 @@
 <x-app-layout>
-<h1 class="text-5xl text-green-500">Merge</h1>
+    <x-hero/>
+    <x-section2/>
+    <x-section3 :projects="$projects"/>
 </x-app-layout>
