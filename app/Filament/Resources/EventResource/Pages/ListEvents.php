@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\ProjectResource\Pages;
+namespace App\Filament\Resources\EventResource\Pages;
 
-use App\Filament\Resources\ProjectResource;
+use App\Filament\Resources\EventResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 
-class ListProjects extends ListRecords
+class ListEvents extends ListRecords
 {
-    protected static string $resource = ProjectResource::class;
+    protected static string $resource = EventResource::class;
 
     protected function getHeaderActions(): array
     {
